@@ -1,12 +1,12 @@
 return {
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        jsonls = {
-          mason = true,
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            servers = {
+                jsonls = {
+                    mason = true,
+                },
+            },
         },
-      },
     },
-  },
 }

@@ -5,5 +5,6 @@ local keymap = vim.keymap
 keymap.set("i", "jk", "<ESC>")
 keymap.set("i", "<C-h>", "<Left>", { noremap = true, silent = true })
 keymap.set("i", "<C-l>", "<Right>", { noremap = true, silent = true })
+keymap.set("i", "<C-j>", "<Down>", { noremap = true, silent = true })
 keymap.set("n", "<C-j>", "5j", { noremap = true, silent = true })
 keymap.set("n", "<C-k>", "5k", { noremap = true, silent = true })
